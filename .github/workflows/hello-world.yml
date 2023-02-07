@@ -1,9 +1,9 @@
 name: Hello World workflow
 
 on: 
-  push:
+  pull_request:
     branches:
-      - main
+      - feature-branch
 
 jobs:
   hello-world:
@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: print Hello World
-        run: echo "Hello World" && sleep 30
+        run: echo "Hello World" && sleep 20
       - name: print hello New Era Solution    
-        run:  echo "Hello New Era Solutions" && sleep 30
+        run:  echo "Hello New Era Solutions" && sleep 20
