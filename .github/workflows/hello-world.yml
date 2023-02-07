@@ -1,9 +1,9 @@
 name: Hello World workflow
 
 on: 
-  push:
+  pull_request:
     branches:
-      - main
+      - feature-branch
 
 jobs:
   hello-world:
