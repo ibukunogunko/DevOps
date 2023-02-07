@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: print Hellow World
-        run: echo "Hello World"
-        run: sleep 20
+      - name: print Hello World
+        run: echo "Hello World" && sleep 30
+      - name: print hello New Era Solution    
+        run:  print "Hello New Era Solutions" && sleep 30
