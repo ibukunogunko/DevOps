@@ -1,7 +1,7 @@
 name: Hello World workflow
 
 on: 
-  pull:
+  push:
     branches:
       - main
 
