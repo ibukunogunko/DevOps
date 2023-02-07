@@ -1,6 +1,9 @@
 name: Hello World workflow
 
-on: pull
+on: 
+  pull:
+    branches:
+      - main
 
 jobs:
   hello-world:
