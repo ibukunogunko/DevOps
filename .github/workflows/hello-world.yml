@@ -4,7 +4,8 @@ on:
   pull_request:
     branches:
       - feature-branch
-
+  push:
+    branches: [ "master" ]
 jobs:
   hello-world:
     runs-on: ubuntu-latest
